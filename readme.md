@@ -34,19 +34,6 @@ This command opens up dev.to/dashboard in your default browser.
 
 Deletes your global config file (located at .devto in your home directory). The next time you attempt to publish an article, it will re-prompt you for your API key.
 
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
-
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
-```
-
 # License
 
 MIT - see LICENSE
