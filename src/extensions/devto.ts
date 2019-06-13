@@ -50,7 +50,7 @@ module.exports = (toolbox: GluegunToolbox) => {
   }
 
   async function getLocalConfig(): Promise<LocalConfig | false> {
-    const path = `${filesystem.cwd()}/.devto.js`
+    const path = `${filesystem.cwd()}/.devto.json`
     return filesystem.exists(path) && filesystem.readAsync(path, 'json')
   }
 
