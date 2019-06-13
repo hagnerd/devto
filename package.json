@@ -1,6 +1,6 @@
 {
   "name": "@hagnerd/devto",
-  "version": "0.0.4",
+  "version": "0.1.1",
   "description": "devto CLI",
   "homepage": "https://github.com/hagnerd/devto#readme",
   "bin": {
