@@ -2,7 +2,6 @@
   "name": "@hagnerd/devto",
   "version": "0.0.1",
   "description": "devto CLI",
-  "private": true,
   "bin": {
     "devto": "bin/devto"
   },
