@@ -1,6 +1,6 @@
 # devto CLI
 
-A simple CLI for posting to dev.to. This tool was inspired by [Dev.to VSCode Extension](https://github.com/timdeschryver/new-blog-post) by Tim Deschryver.
+A simple CLI for posting to dev.to. This tool was inspired by [Dev.to VSCode Extension](https://github.com/timdeschryver/new-blog-post) made by Tim Deschryver.
 
 ## Who is it for?
 
