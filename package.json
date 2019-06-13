@@ -1,7 +1,8 @@
 {
   "name": "@hagnerd/devto",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "devto CLI",
+  "homepage": "https://github.com/hagnerd/devto#readme",
   "bin": {
     "devto": "bin/devto"
   },
@@ -9,7 +10,9 @@
     "format": "prettier --write **/*.{js,ts,tsx,json}",
     "lint": "tslint -p .",
     "compile": "tsc -p .",
-    "build": "yarn format && yarn lint && yarn compile",
+    "clean-build": "rm -rf ./build",
+    "copy-templates": "if [ -e ./src/templates ]; then cp -a ./src/templates ./build/; fi",
+    "build": "yarn format && yarn lint && yarn clean-build && yarn compile && yarn copy-templates",
     "test": "jest",
     "watch": "jest --watch",
     "snapupdate": "jest --updateSnapshot",
