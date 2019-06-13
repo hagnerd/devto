@@ -1,0 +1,9 @@
+{ 
+  <% if (props.id !== null) { %>
+  "id": <%= props.id %>, 
+  <% } %>
+  <% if (props.url !== null) { %>
+  "url": "<%= props.url %>", 
+  <% } %>
+  "path": "<%=props.path %>" 
+}
